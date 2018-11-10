@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+        Banco de Los Alpes
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+    <ion-item>
+      <div text-center>
+        <h2>Banco de Los Alpes</h2>
+        <p>Universidad de los Andes</p>
+      </div>
+      </ion-item>
+      <ion-item>
+      <p></p>
+      <div text-center>
+      <img  src="assets/imgs/banco.jpg">
+    </div>
+      <p></p>
+      </ion-item>
+  <ion-item>
+    <ion-label fixed>Usuario</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Contraseña</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+  <button ion-button block (click)="gotoInicio()">Ingresar</button>
+  <button ion-button block (click)="gotoRegistro()">Registrate</button>
+</ion-content>
