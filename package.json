@@ -4,6 +4,11 @@
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
+  "devDependencies": {
+    "@ionic/app-scripts": "3.1.11",
+    "@ionic/lab": "1.0.13",
+    "typescript": "~2.6.2"
+  },
   "scripts": {
     "start": "ionic-app-scripts serve",
     "clean": "ionic-app-scripts clean",
@@ -31,12 +36,10 @@
     "ng2-charts": "^1.6.0",
     "rxjs": "5.5.11",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.26"
-  },
-  "devDependencies": {
-    "@ionic/app-scripts": "3.1.11",
-    "@ionic/lab": "1.0.13",
-    "typescript": "~2.6.2"
+    "zone.js": "0.8.26",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
   },
   "description": "An Ionic project"
 }
