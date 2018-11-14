@@ -3,6 +3,7 @@ dist/
 node_modules/
 .sourcemaps/
 tmp/
+www/
 temp/
 platforms/
 plugins/
