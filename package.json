@@ -1,27 +1,22 @@
 {
   "name": "banco",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
-  "private": true,
+  "version": "1.0.0",
+  "description": "<img src=\"https://user-images.githubusercontent.com/236501/32385619-bddac0ac-c08c-11e7-9ee4-9c892197191f.png\" width=\"400\" />",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "ionic-app-scripts serve",
-    "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
-    "lint": "ionic-app-scripts lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "dependencies": {
-    "chart.js": "^2.7.3",
-    "ionic-angular": "3.9.2",
-    "ng2-charts": "^1.6.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norveyg/bancolosalpesarqdigital.git"
   },
-  "devDependencies": {
-    "@ionic/app-scripts": "3.2.0",
-    "@ionic/lab": "1.0.13",
-    "typescript": "~2.6.2"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/norveyg/bancolosalpesarqdigital/issues"
   },
-  "engines": {
-    "node": "10.13.0"
-  },
-  "description": "An Ionic project"
+  "homepage": "https://github.com/norveyg/bancolosalpesarqdigital#readme"
 }
