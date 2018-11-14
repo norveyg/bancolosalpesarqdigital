@@ -8,13 +8,5 @@ platforms/
 plugins/
 plugins/android.json
 plugins/ios.json
-www/
 $RECYCLE.BIN/
 /node_modules
-npm-debug.log
-.DS_Store
-/*.env
-
-.DS_Store
-Thumbs.db
-UserInterfaceState.xcuserstate
